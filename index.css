@@ -19,8 +19,8 @@ header p {
     cursor: pointer;
 }
 
-header p:hover{
-    background-color: rgb(203, 156, 247);
+header a:hover{
+    color: #c452ea;
 }
 
 .icon{
