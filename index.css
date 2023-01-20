@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(237, 219, 253);
+  padding: 5px;
+}
+
+header p {
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+
+header p:hover{
+    background-color: rgb(203, 156, 247);
+}
+
+.icon{
+    width: 80px;
+    
+}
+
+header  a{
+    text-decoration: none;
+    color: black;    
+    font-size: 140%;
+}
+
+header p{
+    display: inline;
+
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 60px;
+}
+
+.imgprinc{
+    width: 90%;
+    margin-left: 75px;
+    margin-right: 50px;
+    border: 2px solid purple;
+}
+
+.artista{
+    background-color: rgb(237, 219, 253);
+    margin: 30px;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    display:block;
+    margin-top: 15px;
+}
+
+h2 b{
+    color: rgb(210, 85, 189);
+}
+
+.bio{
+    background-color: rgb(237, 219, 253);
+    margin: 0px 15px 15px 15px;
+    display: inline-flex;
+}
+
+
+.bio img{
+    width: 20%;
+    border: 2px solid purple;
+    border-radius: 10px; 
+    margin-right: 10px;
+}
+
+.bio p{
+    font-size: 110%;
+    display:inline;
+    background-color: rgb(237, 219, 253);
+    padding: 5px;
+    text-align: initial;
+    margin-bottom:auto;
+}
+
+.bio a{
+    color: rgb(210, 85, 189);
+}
+
+.bio {
+    margin-top: 40px;
+}
+
+footer{
+    background-color: rgb(237, 219, 253);
+    padding: 25px;
+    text-align: center;
+}
+
+
+
